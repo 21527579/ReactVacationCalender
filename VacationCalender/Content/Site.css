@@ -1,0 +1,97 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+.employee, .day, .navigation select, .navigation .arrows {
+    display: inline-block;
+}
+
+.navigation {
+    width: 400px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.navigation select {
+    width: 150px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.navigation .arrows {
+    font-size: 20px;
+    margin: 10px;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.employee-vacation, .days, .day {
+    height: 30px;
+}
+
+.days {
+    padding-left: 125px;
+}
+
+.day.weekend {
+    background: #f7b9a0;
+}
+
+.day.today {
+    background: #77b0d6;
+}
+
+.day.vacation {
+    /* color: #daee69; */
+    background: #a7f7a0;
+}
+
+.day {
+    border: solid 1px #4b4949;
+    font-size: 20px;
+    width: 30px;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.days .day {
+    background: #e0dfdf;
+    cursor: unset;
+}
+
+.employee {
+    width: 125px;
+    font-size: 12px;
+    vertical-align: middle;
+}
+
+.add-employee {
+    width: 500px;
+    margin: 20px 0 20px 125px;
+    padding: 10px;
+    border: solid 2px #b7d6eb;
+    border-radius: 5px;
+}
+
+.add-employee input[type=text] {
+    width: 100%;
+}
+
+.add-employee button {
+    margin-top: 20px;
+}
